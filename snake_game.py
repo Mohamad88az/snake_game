@@ -1,4 +1,4 @@
-# 🐍 🐍  snake game:
+# 🐍  snake game:
 
 # 1 .Pause Menu with Multiple Options:
 
