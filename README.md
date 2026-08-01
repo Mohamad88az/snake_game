@@ -33,9 +33,9 @@ A classic Snake game with single-player and multiplayer modes, hunter snakes, po
 2. Install pygame:
 
 Key,Action
-↑ ↓ ← →,-------->Move Player 1
-W A S D,--------->Move Player 2
-P or Esc,--------->Pause / Resume
-Enter,------------>Select menu option
-R,----------------->Restart after Game Over
-M or Esc,--------------->Return to main menu
+↑ ↓ ← →,-------->Move Player 1 ||||||
+W A S D,--------->Move Player 2 |||||
+P or Esc,--------->Pause / Resume |||
+Enter,------------>Select menu option|||
+R,----------------->Restart after Game Over|||
+M or Esc,--------------->Return to main menu|||
