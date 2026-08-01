@@ -1,37 +1,41 @@
-# Python Snake Game
+# 🐍 Snake Game
 
-A classic Snake game implementation using Python and Pygame.
+A classic Snake game with single-player and multiplayer modes, hunter snakes, power-ups, and difficulty settings.
+
+---
 
 ## Features
-- Classic snake gameplay
-- Score tracking
-- Grid-based movement
-- Game over detection
-- Restart functionality
 
-## Requirements
-- Python 3.x
-- Pygame 2.5.2
+- **Single-player & Two-player modes**
+  - Player 1: Arrow keys
+  - Player 2: `W` `A` `S` `D`
 
-## Installation
-1. Make sure you have Python installed on your system
-2. Install the required dependencies:
-```bash
-pip install -r requirements.txt
-```
+- **Optional Hunter Snakes**
+  - Add 1 to 3 hunter snakes
+  - Difficulty levels: Easy / Medium / Hard
+  - Hunters chase the nearest player
 
-## How to Play
-1. Run the game:
-```bash
-python snake_game.py
-```
+- **Power-ups**
+  - 🔵 Temporary invincibility
+  - 🟠 Speed boost
+  - 🩷 Bonus score
+  - 🟣 Shrink snake length
 
-2. Controls:
-- Use arrow keys to control the snake's direction
-- Press 'R' to restart when game is over
-- Close the window to quit the game
+- Pause menu with speed and sound controls
+- High Score tracking in single-player mode
+- Clean and simple visuals
 
-## Game Rules
-- The snake grows longer when it eats the red food
-- Game ends if the snake hits the walls or itself
-- Try to achieve the highest score possible! 
+---
+
+## Installation & How to Run
+
+1. Make sure you have Python 3.8 or higher  
+2. Install pygame:
+
+Key,Action
+↑ ↓ ← →,-------->Move Player 1
+W A S D,--------->Move Player 2
+P or Esc,--------->Pause / Resume
+Enter,------------>Select menu option
+R,----------------->Restart after Game Over
+M or Esc,--------------->Return to main menu
